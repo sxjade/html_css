@@ -1,0 +1,54 @@
+﻿<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>元素分类</title>
+		<style type="text/css">
+			div,p{background:pink;}
+			span,em{
+				display:inline;
+				background:pink; /*设置a、span、em标签背景颜色都为粉色*/
+			}
+			a{
+    display:inline-block;
+	width:30px;/*在默认情况下宽度不起作用*/
+	height:20px;/*在默认情况下高度不起作用*/
+	background:pink;/*设置背景颜色为粉色*/
+	text-align:center; /*设置文本居中显示*/
+}
+		</style>
+    </head>
+	<!-- 标签元素大体被分为三种不同的类型：块状元素、内联元素(又叫行内元素)和内联块状元素。 -->
+	<!-- 1-块级元素转内联    div｛display:inline;｝/*设置成内联元素排在一行，不可以设置宽度高度*/ -->
+	<!-- 2-内联元素转块级    a｛display:block;｝/*设置成块级元素，可以设置宽度高度*/ -->
+	<!-- 3-内联块状元素设置   a{display:inline-block;}/*设置内联元素排在一行，可以设置宽度高度*/ -->
+	
+	<!-- 常用的块状元素有：<div>、<p>、<h1>...<h6>、<ol>、<ul>、<dl>、<table>、<address>、<blockquote> 、<form>   -->
+	<!-- 常用的内联元素有：<a>、<span>、<br>、<i>、<em>、<strong>、<label>、<q>、<var>、<cite>、<code> -->
+	<!-- 常用的内联块状元素有：<img>、<input> -->
+	
+	<!-- 设置display:block将元素显示为块级元素。 -->
+	<!-- 每个块级元素都从新的一行开始，并且其后的元素也另起一行。（真霸道，一个块级元素独占一行）  -->
+	<!-- 元素的高度、宽度、行高以及顶和底边距都可设置。 -->
+	<!-- 元素宽度在不设置的情况下，是它本身父容器的100%（和父元素的宽度一致），除非设定一个宽度。 -->
+	
+	<!-- 设置display:inline将元素设置为内联元素。 -->
+	<!-- 和其他元素都在一行上； -->
+	<!-- 元素的高度、宽度及顶部和底部边距不可设置； -->
+	<!-- 元素的宽度就是它包含的文字或图片的宽度，不可改变。 -->
+	
+	<!-- display:inline-block就是将元素设置为内联块状元素。 -->
+	<!-- 和其他元素都在一行上； -->
+	<!-- 元素的高度、宽度、行高以及顶和底边距都可设置。 -->
+<body>
+<a href="http://www.baidu.com">百度</a>
+<a href="http://www.imooc.com">慕课网</a>
+<div>33333</div>
+<span>44444</span><em>555555</em>
+<div>div1</div>
+<div>div2</div>
+<p>段落1段落1段落1段落1段落1</p>
+
+</body>
+
+</html>

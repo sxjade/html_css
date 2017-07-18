@@ -1,0 +1,45 @@
+﻿<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>文字排版--字体字号、颜色</title>
+		<style type="text/css">
+			body{
+				font-family:"Microsoft Yahei";	/* 字体 */
+				font-size:20px;		/* 字号 */
+				color:#666;	/* 颜色 */
+				}
+			.stress{
+				font-size:30px;
+				color:red;
+			}
+			a{font-weight:bold;		/* 粗体 */
+				
+			}	
+			span {
+				text-decoration:underline;		/* 下划线 */
+				font-style:italic; 	/* 斜体 */
+			}
+			.oldPrice{text-decoration:line-through;  /* 删除线 */
+			
+			}
+			h1{
+				letter-spacing:5px; /* 中文字间距、字母与字母间距 */
+				word-spacing:50px;	/* 使用 word-spacing设置英文单词之间的间距 */
+				text-align:center;	/* 对齐,可选值还有left和right */
+			}
+			p{text-indent:2em;	/* 缩进 */
+				line-height:1.5em;	/* 行间距（行高） */
+			}
+		</style>
+    </head>
+	<!-- 现在一般网页喜欢设置“微软雅黑” -->
+	<!-- 2em的意思就是文字的2倍大小。  -->
+	<!-- 英文命令颜色p{color:red;}  RGB颜色p{color:rgb(133,45,200);}  p{color:rgb(20%,33%,25%);} 十六进制颜色p{color:#00ffff;} -->
+<body>
+    <h1>勇气 (My courage)</h1>
+    <p>三年级时，我还是一个<span >胆小如鼠</span>的小女孩，上课从来不敢回答老师提出的问题，生怕回答错了老师会<a href="http://www.imooc.com">批评</a>我。就一直没有这个勇气来回答老师提出的问题。学校举办的活动我也没勇气参加。</p>
+    <p>到了三年级下学期时，我们班上了一节公开课，老师提出了一个很简单的<span class="oldPrice">问题</span>，班里很多同学都举手了，甚至成绩比我差很多的，也举手了，还说着："我来，我来。"我环顾了四周，就我没有举手。</p>
+</body>
+
+</html>

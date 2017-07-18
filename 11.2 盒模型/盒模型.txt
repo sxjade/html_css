@@ -1,0 +1,6 @@
+元素分类
+CSS中， Box Model叫盒子模型（或框模型），Box Model规定了元素框处理元素内容（element content）、内边距（padding）、边框（border） 和 外边距（margin） 的方式。
+
+由内而外依次是元素内容（content）、内边矩（padding-top、padding-right、padding- bottom、padding-left）、边框（border-top、border-right、border-bottom、border- left）和外边距（marging-top、margin-right、margin-bottom、margin-left）
+
+外边距可以是负值，而且在很多情况下都要使用负值的外边距。

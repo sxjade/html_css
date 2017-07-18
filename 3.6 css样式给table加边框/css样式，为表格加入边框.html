@@ -1,0 +1,49 @@
+﻿<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>css样式，为表格加入边框</title>
+		<style type="text/css">
+			table tr td,th{border:1px solid #000;}
+		</style>	
+    </head>
+	<!-- 创建表格的四个元素：table、tbody、tr、th、td -->
+	<!-- 1. <table>…</table>：整个表格以<table>标记开始、</table>标记结束。默认在浏览器中显示是没有表格线的  -->
+	<!-- 2. <tbody>…</tbody>：如果不加<thead><tbody><tfooter> , table表格加载完后才显示。
+	加上这些表格结构， tbody包含行的内容下载完优先显示，不必等待表格结束后在显示，
+	同时如果表格很长，用tbody分段，可以一部分一部分地显示。
+	（通俗理解table 可以按结构一块块的显示，不在等整个表格加载完后显示。） -->
+	
+	<!-- 3. <tr>…</tr>：表格的一行，所以有几对tr 表格就有几行。 -->
+	<!-- 4. <td>…</td>：表格的一个单元格，一行中包含几对<td>...</td>，说明一行中就有几列。  -->
+	<!-- 5. <th>…</th>：表格的头部的一个单元格，表格表头。默认为粗体并且居中显示 -->
+	<!-- 6. 表格中列的个数，取决于一行中数据单元格的个数。  -->
+	
+<body>
+<table>
+  <tbody>
+    <tr>
+      <th>班级</th>
+      <th>学生数</th>
+      <th>平均成绩</th>
+    </tr>
+    <tr>
+      <td>一班</td>
+      <td>30</td>
+      <td>89</td>
+    </tr>
+    <tr>
+      <td>二班</td>
+      <td>35</td>
+      <td>85</td>
+    </tr>
+   <tr>
+       <td>三班</td>
+       <td>32</td>
+       <td>80</td>
+   </tr>
+  </tbody>
+</table>
+</body>
+
+</html>

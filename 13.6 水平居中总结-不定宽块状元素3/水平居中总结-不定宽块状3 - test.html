@@ -1,0 +1,48 @@
+﻿<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>水平居中总结-不定宽块状2</title>
+		<style>
+.container{
+    float:left;
+    position:relative;
+    left:50%
+}
+
+.container ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    
+    position:relative;
+    left:-50%;
+}
+.container li{float:left;display:inline;margin-right:8px;}
+</style>
+    </head>
+	<!-- 方法1.加入 table 标签 -->
+	<!-- 方法2.设置 display: inline 方法：与第一种类似，显示类型设为 行内元素，进行不定宽元素的属性设置 -->
+	<!-- 方法3.设置 position:relative 和 left:50%：利用 相对定位 的方式，将元素向左偏移 50% ，即达到居中的目的 -->
+	
+	<!-- 方法3.置浮动和相对定位来实现。 -->
+	<!-- 这种方法相比第一种方法的优势是不用增加无语义标签 -->
+	<!-- 存在的问题:将块状元素的 display 类型改为 inline，变成了行内元素，所以少了一些功能，比如设定长度值。 -->
+	
+	
+	
+
+<body>
+<body>
+<div class="container">
+    <ul>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+    </ul>
+</div>
+</body>
+</body>
+
+
+</html>
